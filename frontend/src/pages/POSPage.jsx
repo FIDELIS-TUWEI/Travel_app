@@ -1,8 +1,10 @@
+import MainLayout from "../layouts/MainLayout";
+
 const POSPage = () => {
     return ( 
-        <>
-            <h1>PosPage</h1>
-        </> 
+        <MainLayout>
+            POS content
+        </MainLayout> 
     );
 }
  
