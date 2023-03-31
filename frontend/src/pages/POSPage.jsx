@@ -1,5 +1,9 @@
 const POSPage = () => {
-    return ( <></> );
+    return ( 
+        <>
+            <h1>PosPage</h1>
+        </> 
+    );
 }
  
 export default POSPage;
