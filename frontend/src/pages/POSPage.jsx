@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import MainLayout from "../layouts/MainLayout";
-import axios from 'axios';
 
 const POSPage = () => {
     // useState
@@ -8,7 +7,7 @@ const POSPage = () => {
 
     // fetching data from backend
     const fetchProducts = async() => {
-        const result = await axios.get('products')
+        const result = await fetch('products')
         setProducts(await result.data);
     }
 
