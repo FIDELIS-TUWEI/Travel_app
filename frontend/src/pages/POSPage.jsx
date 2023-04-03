@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import MainLayout from "../layouts/MainLayout";
-import axios from 'axios';
+import axios from 'axios/axios.js';
 
 const POSPage = () => {
     // useState
